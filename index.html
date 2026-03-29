@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saffron &amp; Salt — Cooking Recipes</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header>
+    <nav>
+      <a class="nav-logo" href="index.html">Saffron <span>&amp;</span> Salt</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="recipe1.html">Butter Chicken</a></li>
+        <li><a href="recipe2.html">Dal Makhani</a></li>
+        <li><a href="recipe3.html">Gulab Jamun</a></li>
+        <li><a href="recipe4.html">Biryani</a></li>
+        <li><a href="recipe5.html">Chole Bhature</a></li>
+      </ul>
+      <span class="nav-mobile-label">Menu ☰</span>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <p class="hero-eyebrow">Handpicked Recipes from Indian Kitchens</p>
+    <h1>Cook with <em>Confidence</em>,<br>Eat with Joy</h1>
+    <p>Authentic flavours, clear instructions, and everything you need to bring restaurant-quality dishes to your own table.</p>
+    <a href="#featured" class="hero-btn">Browse Recipes</a>
+  </section>
+
+  <!-- SEARCH (UI only — no JS) -->
+  <div class="search-section">
+    <div class="search-bar">
+      <span class="search-icon">🔍</span>
+      <input type="text" placeholder="Search for a recipe, ingredient, or cuisine…" />
+    </div>
+  </div>
+
+  <!-- CATEGORIES -->
+  <section class="categories">
+    <div class="categories-inner">
+      <div class="cat-btn">
+        <span class="cat-icon">🥦</span>
+        <span class="cat-label">Vegetarian</span>
+      </div>
+      <div class="cat-btn">
+        <span class="cat-icon">🍗</span>
+        <span class="cat-label">Non-Veg</span>
+      </div>
+      <div class="cat-btn">
+        <span class="cat-icon">🍮</span>
+        <span class="cat-label">Desserts</span>
+      </div>
+      <div class="cat-btn">
+        <span class="cat-icon">🍳</span>
+        <span class="cat-label">Breakfast</span>
+      </div>
+      <div class="cat-btn">
+        <span class="cat-icon">🌶️</span>
+        <span class="cat-label">Spicy</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED RECIPES -->
+  <section id="featured">
+    <div class="section-head">
+      <p class="eyebrow">Featured This Week</p>
+      <h2>Recipes Worth Making</h2>
+      <p>From weeknight staples to weekend showstoppers — all tested, all delicious.</p>
+    </div>
+
+    <div class="recipe-grid">
+
+      <!-- Card 1 -->
+      <article class="card">
+        <div class="card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600&q=80" alt="Butter Chicken" />
+          <div class="card-tags">
+            <span class="tag nonveg">Non-Veg</span>
+            <span class="tag">Popular</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span>⏱ 45 min</span>
+            <span class="difficulty diff-medium">Medium</span>
+          </div>
+          <h3>Butter Chicken</h3>
+          <p>Tender chicken simmered in a rich, silky tomato-cream sauce scented with aromatic spices. The ultimate Indian comfort dish.</p>
+          <a href="recipe1.html" class="card-link">View Recipe</a>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="card">
+        <div class="card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&q=80" alt="Dal Makhani" />
+          <div class="card-tags">
+            <span class="tag veg">Veg</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span>⏱ 8 hrs</span>
+            <span class="difficulty diff-easy">Easy</span>
+          </div>
+          <h3>Dal Makhani</h3>
+          <p>Slow-cooked black lentils enriched with butter and cream. A Punjabi classic that rewards patience with extraordinary depth of flavour.</p>
+          <a href="recipe2.html" class="card-link">View Recipe</a>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="card">
+        <div class="card-img-wrap">
+          <img src="https://www.cadburydessertscorner.com/hs-fs/hubfs/dc-website-2022/articles/soft-gulab-jamun-recipe-for-raksha-bandhan-from-dough-to-syrup-all-you-need-to-know/soft-gulab-jamun-recipe-for-raksha-bandhan-from-dough-to-syrup-all-you-need-to-know.webp?width=1152&height=648&name=soft-gulab-jamun-recipe-for-raksha-bandhan-from-dough-to-syrup-all-you-need-to-know.webp" alt="Gulab Jamun" />
+          <div class="card-tags">
+            <span class="tag dessert">Dessert</span>
+            <span class="tag veg">Veg</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span>⏱ 40 min</span>
+            <span class="difficulty diff-medium">Medium</span>
+          </div>
+          <h3>Gulab Jamun</h3>
+          <p>Soft, melt-in-your-mouth milk-solid dumplings soaked in a fragrant rose and cardamom syrup. India's most beloved dessert.</p>
+          <a href="recipe3.html" class="card-link">View Recipe</a>
+        </div>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="card">
+        <div class="card-img-wrap">
+          <img src="https://authenticroyal.com/wp-content/uploads/2024/05/How-to-Make-Chicken-Biryani-Video.jpg" alt="Chicken Biryani" />
+          <div class="card-tags">
+            <span class="tag nonveg">Non-Veg</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span>⏱ 90 min</span>
+            <span class="difficulty diff-hard">Hard</span>
+          </div>
+          <h3>Hyderabadi Biryani</h3>
+          <p>Fragrant basmati rice layered with spiced chicken and sealed with dough, slow-cooked in the dum style for maximum fragrance.</p>
+          <a href="recipe4.html" class="card-link">View Recipe</a>
+        </div>
+      </article>
+
+      <!-- Card 5 -->
+      <article class="card">
+        <div class="card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=600&q=80" alt="Chole Bhature" />
+          <div class="card-tags">
+            <span class="tag veg">Veg</span>
+            <span class="tag">Street Food</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span>⏱ 60 min</span>
+            <span class="difficulty diff-medium">Medium</span>
+          </div>
+          <h3>Chole Bhature</h3>
+          <p>Spicy, tangy chickpea curry served with pillowy, deep-fried bhature bread. Delhi's iconic street-food combination at its finest.</p>
+          <a href="recipe5.html" class="card-link">View Recipe</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <div class="divider">✦ ✦ ✦</div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a class="nav-logo" href="index.html">Saffron <span>&amp;</span> Salt</a>
+        <p>A collection of authentic Indian recipes — written clearly, tested carefully, and meant to be made again and again.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Recipes</h4>
+        <a href="recipe1.html">Butter Chicken</a>
+        <a href="recipe2.html">Dal Makhani</a>
+        <a href="recipe3.html">Gulab Jamun</a>
+        <a href="recipe4.html">Biryani</a>
+        <a href="recipe5.html">Chole Bhature</a>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <a href="#">Vegetarian</a>
+        <a href="#">Non-Veg</a>
+        <a href="#">Desserts</a>
+        <a href="#">Street Food</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Saffron &amp; Salt. Web Development Assignment — CS106.</span>
+      <span>Made by Shubham Singh Panwar.</span>
+    </div>
+  </footer>
+
+</body>
+</html>
